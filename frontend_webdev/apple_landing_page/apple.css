@@ -1,0 +1,395 @@
+
+
+html{
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+body{
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+
+}
+
+
+.container{
+    margin: auto;
+    max-width: 1600px;
+    width: 100%;
+  }
+
+
+.nav{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.729);
+    font-size: 11px;
+    position:fixed;
+    width: 100%;
+    z-index: 100;
+    height: 50px;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li{
+    padding: 20px;
+}
+
+.showcase-1 {
+    background-image: url("https://www.apple.com/v/iphone-14-pro/c/images/meta/iphone-14-pro_overview__e414c54gtu6a_og.png");
+    background-repeat: no-repeat;
+    background-position: center 200px;
+    background-size: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  width: 100%; 
+  height: 800px;
+ 
+
+}
+
+.showcase-1 h1{
+    padding-top: 60px;
+    font-size: 50px;
+}
+
+.showcase-1 a{
+    color: rgb(118, 118, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.showcase-2 {
+    background-image: url("https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-14-iPhone-14-Plus-hero-220907_Full-Bleed-Image.jpg.large.jpg");
+    background-repeat: no-repeat;
+    background-color: rgb(251, 250, 250);
+    background-position: center 200px;
+    background-size: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  width: 100%; 
+  height: 745px;
+  
+ 
+
+}
+
+.showcase-2 h1{
+    padding-top: 40px;
+    font-size: 50px;
+    background:none;
+    color: black;
+}
+
+
+
+.showcase-2 h2{
+    
+    background:none;
+    color: black;
+}
+
+.showcase-2 a{
+    color: rgb(118, 118, 255);
+    background: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.showcase-3 {
+    background-image: url("https://www.apple.com/v/apple-watch-series-8/b/images/meta/gps-lte__de35dernyje6_og.png");
+    background-repeat: no-repeat;
+    background-position: center 200px;
+    background-size: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+
+  width: 100%; 
+  height: 745px;
+ 
+
+}
+.showcase-3 h3{
+    color: rgb(150, 0, 0);
+}
+.showcase-3 h2{
+    padding-top: 20px;
+
+}
+
+.showcase-3 a{
+    color: rgb(118, 118, 255);
+}
+
+
+.fitness_logo{
+    width: 250px;
+}
+
+.watch_logo{
+    width: 250px;
+}
+
+
+.home-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    background-color: white;
+  }
+  
+  
+  
+  .card{
+      width: 700px;
+      height: 500px;
+      position: relative;
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+
+
+
+
+
+/*1st card*/
+.card .card-title .ultra_watch_logo{
+    padding-top: 20px;
+    width: 200px;
+}
+
+.card:nth-child(1){
+background-image: url("https://www.apple.com/v/apple-watch-ultra/d/images/overview/hero/hero_watch_ultra__cbu8ymf4a8xe_large_2x.jpg");
+background-position:bottom;
+background-size: 700px;
+background-repeat: no-repeat;
+background-color: rgb(252, 251, 253);
+}
+
+.card:nth-child(1) a{
+    color: rgb(118, 118, 255);
+}
+
+.card:nth-child(1) .card-text{
+color: black;
+padding-left:10px ;
+padding-bottom: 10px;
+}
+
+/*2nd card*/
+
+
+.card .card-title .fitness_logo{
+    padding-top: 35px;
+    width: 200px;
+}
+
+    .card:nth-child(2){
+        background-image: url("https://st.depositphotos.com/1424188/3115/i/600/depositphotos_31158991-stock-photo-man-exercising-weight-training-silhouette.jpg");
+        background-position:bottom;
+        background-size: 250px;
+        background-repeat: no-repeat;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .card:nth-child(2) a{
+            color: rgb(118, 118, 255);
+    }
+
+    .card:nth-child(2) .card-text{
+        color: black;
+        padding-left:10px ;
+        width: 250px;
+        padding-bottom: 10px;
+    }
+
+
+
+/*3rd card*/
+
+    .card:nth-child(3){
+        background-position:bottom;
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-image: radial-gradient(ellipse farthest-corner at 50% 0%, #b32222 70%, #6b0000 70%)
+    }
+
+    .card:nth-child(3) .card-logo{
+        padding-top:30px ;
+}
+    .card:nth-child(3) a{
+            color: rgb(118, 118, 255);
+            padding-bottom: 80px;
+    }
+
+    .card:nth-child(3) .card-text{
+        color: rgb(255, 255, 255);
+        padding-top: 20px;
+        padding-left:10px ;
+        padding-bottom: 10px;
+        width: 500px;
+        text-align: center;
+
+    }
+
+
+    .card:nth-child(3) .card-title{
+        color: rgb(255, 255, 255);
+        padding-left:10px ;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 40px;
+
+    }
+    
+/*4th card*/
+
+
+.card:nth-child(4){
+    text-align: center;
+}
+
+.card:nth-child(4) .card-title {
+    font-weight: 500;
+    padding-top: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+    .card:nth-child(4){
+        background-image: url("https://www.apple.com/v/ipad-10.9/b/images/overview/hero/hero__ecv967jz1y82_large_2x.jpg");
+        background-position:bottom;
+        background-size: 250px;
+        background-repeat: no-repeat;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .card:nth-child(4) a{
+            color: rgb(118, 118, 255);
+    }
+
+    .card:nth-child(4) .card-text{
+        color: black;
+        padding-left:10px ;
+        width: 350px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+
+
+a{
+    text-decoration: none ;
+}
+
+
+/*card 5*/
+
+.card:nth-child(5){
+    text-align: center;
+}
+
+.card:nth-child(5) .card-title {
+    font-weight: 500;
+    padding-top: 40px;
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+    .card:nth-child(5){
+        background-image: url("https://wallpaperaccess.com/full/4340428.jpg");
+        background-position:bottom;
+        background-size: 500px;
+        background-repeat: no-repeat;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .card:nth-child(5) a{
+            color: rgb(118, 118, 255);
+    }
+
+    .card:nth-child(5) .card-text{
+        color: rgb(255, 255, 255);
+        padding-left:10px ;
+        width: 350px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+
+
+
+/*last card*/
+
+.card .card-title .card_logo{
+    padding-top: 0px;
+    width: 180px;
+}
+
+.card:nth-child(6){
+background-image: url("https://cdn.techjuice.pk/wp-content/uploads/2019/08/Apple-Card-available-today-Apple-Card-082019.jpg");
+background-position:bottom;
+background-size: 400px;
+background-repeat: no-repeat;
+background-color: rgb(255, 255, 255);
+}
+
+.card:nth-child(6) a{
+    color: rgb(118, 118, 255);
+}
+
+.card:nth-child(6) .card-text{
+color: black;
+padding-left:10px ;
+padding-bottom: 10px;
+}
